@@ -1,0 +1,43 @@
+package week1.day1;
+
+public class PrimeNumber {
+
+		
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int num = 0;
+        boolean isPrime = true;
+ 
+        //Empty String
+        String primeNumbersFound = "";
+ 
+        
+        for (int i = 1; i <= 100; i++) {
+            isPrime = CheckPrime(i);
+            if (isPrime) {
+                primeNumbersFound = primeNumbersFound + i + " ";
+            }
+        }
+        System.out.println("Prime numbers from 1 to are:");
+        // Print prime numbers from 1 to maxCheck
+        System.out.println(primeNumbersFound);
+    }
+    public static boolean CheckPrime(int numberToCheck) {
+        int remainder;
+        for (int i = 2; i <= numberToCheck / 2; i++) {
+            remainder = numberToCheck % i;
+            if (remainder == 0) {
+                return false;
+            }
+        }
+        return true;
+ 
+		
+	}
+		
+	}
+
+
+
+  
