@@ -1,0 +1,17 @@
+package week1day2;
+
+public class CheckNumberIsPositive {
+
+	public static void main(String[] args) {
+		int num = 8;
+		if (num>0) {
+			System.out.println("Given number is Positive");
+		}else if(num<0) {
+			System.out.println("Given number is Negative");
+		}else {
+			System.out.println("Number is Neutral");
+		}
+
+	}
+
+}
