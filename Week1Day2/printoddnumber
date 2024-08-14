@@ -1,0 +1,16 @@
+package week1day2;
+
+class PrintOddNumber {
+	
+public void oddnumbers() {
+	int val=25;
+	for(int i=0; i<=val;i++) {
+		if(i%2==1) {
+			System.out.println("Odd number is : "+i);
+		}
+	}
+}	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		PrintOddNumber oddnumber = new PrintOddNumber();
+	}
+}
