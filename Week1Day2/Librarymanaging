@@ -1,0 +1,19 @@
+package week1day2;
+
+public class Library {
+	
+	public String addBook(String bookTitle) {
+		System.out.println("Book added Successfully");
+		return bookTitle;
+	}
+	public void issueBook() {
+		System.out.println("Book issued Successfully");
+	}
+	public static void main(String[] args) {
+		obj creation
+				Library library = new Library();
+		
+				//System.out.println(library.addBook("Book Name: Wings of Fire"));
+				
+				// Calling issueBook method
+				lib.issueBook();
